@@ -1,0 +1,9 @@
+body{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, nav {
+  font-family: 'Bebas Neue', sans-serif;
+}
