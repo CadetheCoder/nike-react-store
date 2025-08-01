@@ -1,0 +1,14 @@
+.wrapper{
+    background-color: #ededed;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.log-in-container{
+    margin-right: 1em;
+}
+
+h3{
+    margin: 1em;
+}

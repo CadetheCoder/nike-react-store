@@ -1,6 +1,10 @@
 .wrapper{
-    background-color: #6b7280;
-    padding: 10px;
+    background-color: #ededed;
+    padding: 20px;
     text-align: center;
-    color: white;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.wrapper h3{
+    font-weight: 500;
 }

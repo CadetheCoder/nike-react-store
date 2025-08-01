@@ -3,7 +3,6 @@
 }
 
 .img-wrapper{
-    max-width: 1000px;
     margin: auto;
 }
 
@@ -22,5 +21,13 @@
 .text-container h3{
     font-size: 2em;
     margin-bottom: 0px;
+}
+
+.text-container p{
+    margin-top: 1em;
+}
+
+.text-container button{
+    margin-top: 1em;
 }
 

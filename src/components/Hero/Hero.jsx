@@ -4,7 +4,7 @@ function Hero(){
     return(
         <div>
             <div className={styles['img-wrapper']}>
-            <img src="./src/assets/hero-img.webp" alt="" className={styles['hero-img']}/>
+            <img src="/hero-img.webp" alt="" className={styles['hero-img']}/>
             </div>
             <div className={styles['text-container']}>
                 <h3>Summer Sale</h3>

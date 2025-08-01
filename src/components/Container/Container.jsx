@@ -1,14 +1,9 @@
+import styles from './Container.module.css'
 
 function Container({ children }){
 
-    const styles = {
-        margin: "auto",
-        maxWidth: "1440px",
-        height: "100vh",
-    }
-
     return(
-        <div style={styles}>
+        <div className={styles.container}>
             {children}
         </div>
     )
