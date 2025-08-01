@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 import styles from "./Navbar.module.css"
-import Shoes from "../../pages/shoes"
-import Socks from "../../pages/socks"
-import Sale from "../../pages/sale"
-import Home from "../../pages/Home"
+import Shoes from "../../pages/Shoes/shoes"
+import Socks from "../../pages/Socks/socks"
+import Sale from "../../pages/Sale/sale"
+import Home from "../../pages/Home/Home"
 
 function Navbar(){
     return(

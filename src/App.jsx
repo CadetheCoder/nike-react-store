@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Checkout from "./pages/Checkout";
-import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout/Checkout";
+import Cart from "./pages/Cart/Cart";
 import Layout from "./Layout";
-import Shoes from "./pages/shoes";
-import Socks from "./pages/socks";
-import Sale from "./pages/sale";
+import Shoes from "./pages/Shoes/shoes";
+import Socks from "./pages/Socks/socks";
+import Sale from "./pages/Sale/sale";
+import ProductPage from "./pages/ProductPage/productPage";
+import Home from "./pages/Home/home";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/sale" element={<Sale/>}></Route>
           <Route path="/checkout" element={<Checkout/>}/>
           <Route path="/cart" element={<Cart/>}/>
+          <Route path="/product/:id" element={<ProductPage/>}/>
         </Route>
       </Routes>
     </Router>

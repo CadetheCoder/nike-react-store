@@ -1,0 +1,26 @@
+.product-card{
+    width: 400px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-card h3{
+    margin-left: 0;
+    font-weight: 500;
+}
+
+.product-card p {
+    margin-bottom: 1em;
+}
+
+.gender{
+    color: grey;
+}
+
+.price{
+    font-weight: 500;
+}
