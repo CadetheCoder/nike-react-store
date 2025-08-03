@@ -1,11 +1,7 @@
 .logo{
     width: 50px;
     cursor: pointer;
-}
-
-.cart-btn{
-    width: 50px;
-    cursor: pointer;
+    margin-left: 1em;
 }
 
 header{

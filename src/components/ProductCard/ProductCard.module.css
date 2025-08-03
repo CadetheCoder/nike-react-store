@@ -1,7 +1,6 @@
 .product-card{
     width: 400px;
     cursor: pointer;
-    border: 1px solid grey;
 }
 
 .product-card img{

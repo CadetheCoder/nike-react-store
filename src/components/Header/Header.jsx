@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+import CartIcon from "../CartIcon/CartIcon";
 
 function Header(){
 
@@ -10,9 +11,7 @@ function Header(){
                 <img src="/nike-logo.avif" alt="nike logo" className={styles.logo}/>
             </Link>
             <Navbar/>
-            <Link to="/cart">
-                <img src="/cart-icon.webp" alt="shopping cart navigation button" className={styles['cart-btn']}></img>
-            </Link>
+            <CartIcon/>
         </header>
     )
 }
