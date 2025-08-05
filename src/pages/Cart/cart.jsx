@@ -14,9 +14,9 @@ function Cart(){
                 ) : (
                     cartItems.map((item, index) => (
                         <div key={index}>
-                            <img src={item.image} alt={item.name}/>
+                            <img src={item.image} alt={item.name} className={styles['cart-item-img']}/>
                             <div className={styles['product-text']}>
-                                
+                                <h3>{item.name}</h3>
                             </div>
                         </div>
                     ))
@@ -25,10 +25,15 @@ function Cart(){
             <div className={styles['summary-container']}>
                 <div className={styles['summary-text-wrapper']}>
                     <h1>Summary</h1>
-                    <p>Subtotal</p>
-                    <p>Estimated Shipping & Handling</p>
-                    <p className={styles.total}>Total</p>
-                    <button>Checkout</button>
+                    <div className={styles['shipping-container']}>
+                        <p>Estimated Shipping & Handling</p>
+                        <p>Free</p>
+                    </div>
+                    <div className={styles['total-container']}>
+                        <p className={styles.total}>Total</p>
+                        <p>price</p>
+                    </div>
+                    <button className={styles['checkout-btn']}>Checkout</button>
                 </div>
             </div>
         </div>
