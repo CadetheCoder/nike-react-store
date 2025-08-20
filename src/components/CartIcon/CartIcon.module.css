@@ -1,23 +1,19 @@
 .cart-btn{
     width: 50px;
     cursor: pointer;
-    position: relative;
 }
 
 .cart-total{
     display: none;
-    position: absolute;
-    top: 73px;
-    right: 53px;
 }
 
 .link{
     text-decoration: none;
     color: black;
     margin-right: 1em;
+    display: flex;
 }
 
 .cart-total.active{
     display: block;
-    
 }
