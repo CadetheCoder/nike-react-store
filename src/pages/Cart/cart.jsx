@@ -13,10 +13,12 @@ function Cart(){
                     <p>Your cart is empty.</p>
                 ) : (
                     cartItems.map((item, index) => (
-                        <div key={index}>
+                        <div key={index} className={styles['cart-item-container']}>
                             <img src={item.image} alt={item.name} className={styles['cart-item-img']}/>
-                            <div className={styles['product-text']}>
+                            <div className={styles['cart-item-text-container']}>
                                 <h3>{item.name}</h3>
+                                <p className={styles['cart-item-gender']}>{item.gender}</p>
+                                <p className={styles['cart-item-price']}>¥{item.price.toLocaleString()}</p>
                             </div>
                         </div>
                     ))
@@ -25,6 +27,10 @@ function Cart(){
             <div className={styles['summary-container']}>
                 <div className={styles['summary-text-wrapper']}>
                     <h1>Summary</h1>
+                    <div className={styles['subtotal-container']}>
+                        <p>Subtotal</p>
+                        <p>price</p>
+                    </div>
                     <div className={styles['shipping-container']}>
                         <p>Estimated Shipping & Handling</p>
                         <p>Free</p>
