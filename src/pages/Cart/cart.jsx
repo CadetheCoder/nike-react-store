@@ -1,14 +1,17 @@
 import { useCart } from "../../context/CartContext";
 import styles from './Cart.module.css';
+import { Link } from "react-router-dom";
 
 function Cart(){
     const { cartItems } = useCart();
-    console.log(cartItems);
+    const subtotal = cartItems.reduce((acc, item) => acc + item.price, 0);
+    const shipping = 0;
+    const total = shipping + subtotal;
 
     return(
         <div className={styles.container}>
             <div className={styles['product-container']}>
-                <h1>Cart</h1>
+                <h1 className={styles['cart-title']}>Cart</h1>
                 {cartItems.length === 0 ? (
                     <p>Your cart is empty.</p>
                 ) : (
@@ -29,7 +32,7 @@ function Cart(){
                     <h1>Summary</h1>
                     <div className={styles['subtotal-container']}>
                         <p>Subtotal</p>
-                        <p>price</p>
+                        <p>¥{subtotal.toLocaleString()}</p>
                     </div>
                     <div className={styles['shipping-container']}>
                         <p>Estimated Shipping & Handling</p>
@@ -37,9 +40,9 @@ function Cart(){
                     </div>
                     <div className={styles['total-container']}>
                         <p className={styles.total}>Total</p>
-                        <p>price</p>
+                        <p>¥{total.toLocaleString()}</p>
                     </div>
-                    <button className={styles['checkout-btn']}>Checkout</button>
+                    <Link to="/checkout"><button className={styles['checkout-btn']}>Checkout</button></Link>
                 </div>
             </div>
         </div>

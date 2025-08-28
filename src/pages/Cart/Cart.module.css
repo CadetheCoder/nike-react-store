@@ -1,5 +1,4 @@
 .container{
-    background-color: grey;
     margin: auto;
     display: flex;
     max-width: 1000px;
@@ -13,7 +12,6 @@
 }
 
 .product-container{
-    background-color: aqua;
     max-width: 500px;
     margin: auto;
     margin-top: 0px;
@@ -25,7 +23,6 @@
 }
 
 .summary-container{
-    background-color: green;
     width: 400px;
     margin: auto;
 }
@@ -76,6 +73,7 @@
 
 .cart-item-container{
     display: flex;
+    margin-bottom: 1em;
 }
 
 .cart-item-text-container p{
@@ -99,3 +97,12 @@
     justify-content: space-between;
 }
 
+.cart-title{
+    margin-bottom: 0.2em;
+}
+
+@media (max-width: 995px) {
+    .summary-container{
+        width: 500px;
+    }
+}
