@@ -8,6 +8,14 @@ function Cart(){
     const shipping = 0;
     const total = shipping + subtotal;
 
+    function handleCheckout(){
+        if(cartItems.length < 1){
+            alert("Your cart is empty")
+        } else {
+            window.location.href = "/checkout"
+        }
+    }
+
     return(
         <div className={styles.container}>
             <div className={styles['product-container']}>
@@ -42,7 +50,7 @@ function Cart(){
                         <p className={styles.total}>Total</p>
                         <p>¥{total.toLocaleString()}</p>
                     </div>
-                    <Link to="/checkout"><button className={styles['checkout-btn']}>Checkout</button></Link>
+                    <button className={styles['checkout-btn']} onClick={handleCheckout}>Checkout</button>
                 </div>
             </div>
         </div>
