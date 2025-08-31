@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import styles from "./Navbar.module.css"
 import Shoes from "../../pages/Shoes/shoes"
-import Socks from "../../pages/Socks/socks"
-import Sale from "../../pages/Sale/sale"
+import Socks from "../../pages/Socks/Socks"
+import Sale from "../../pages/Sale/Sale"
 import Home from "../../pages/Home/Home"
 
 function Navbar(){
@@ -12,7 +12,7 @@ function Navbar(){
                 <li><Link to="/" element={<Home/>}>Home</Link></li>
                 <li><Link to="/shoes" element={<Shoes/>}>Shoes</Link></li>
                 <li><Link to="/socks" element={<Socks/>}>Socks</Link></li>
-                <li><Link to="/sale" element={<Sale/>}>Sale</Link></li>
+                <li><Link to="/slides" element={<Slides/>}>Slides</Link></li>
             </ul>
         </nav>
     )

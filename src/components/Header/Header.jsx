@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import styles from './Header.module.css';
 import CartIcon from "../CartIcon/CartIcon";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 function Header(){
 
@@ -12,6 +13,7 @@ function Header(){
             </Link>
             <Navbar/>
             <CartIcon/>
+            <HamburgerMenu/>
         </header>
     )
 }

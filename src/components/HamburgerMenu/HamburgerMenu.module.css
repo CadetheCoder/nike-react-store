@@ -1,0 +1,21 @@
+.nav{
+    display: none;
+}
+
+.menu{
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 300px;
+    left: 300px;
+}
+
+@media (max-width: 768px){
+    .nav{
+        display: block;
+    }
+}

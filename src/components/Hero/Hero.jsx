@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css"
+import { Link } from "react-router-dom";
 
 function Hero(){
     return(
@@ -7,9 +8,9 @@ function Hero(){
             <img src="/hero-img.webp" alt="" className={styles['hero-img']}/>
             </div>
             <div className={styles['text-container']}>
-                <h3>Summer Sale</h3>
-                <p>Fuel your stride with the latest kicks and exclusive discounts.</p>
-                <button>View the Collection</button>
+                <h3>Summer Kicks</h3>
+                <p>Own every step with the latest drops and summer-ready designs.</p>
+                <Link to="/shoes"><button>View the Kicks</button></Link>
             </div>
         </div>
     )

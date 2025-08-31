@@ -17,3 +17,9 @@
 .cart-total.active{
     display: block;
 }
+
+@media (max-width: 768px){
+    .link{
+        margin-left: auto;
+    }
+}

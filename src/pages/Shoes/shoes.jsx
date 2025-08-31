@@ -1,4 +1,3 @@
-import Grid from "../../components/Grid/Grid";
 import Container from "../../components/Container/Container";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import products from "../../data/products";
