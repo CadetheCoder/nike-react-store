@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import styles from "./Navbar.module.css"
 import Shoes from "../../pages/Shoes/shoes"
 import Socks from "../../pages/Socks/Socks"
-import Sale from "../../pages/Sale/Sale"
+import Slides from "../../pages/Slides/Slides";
 import Home from "../../pages/Home/Home"
 
 function Navbar(){

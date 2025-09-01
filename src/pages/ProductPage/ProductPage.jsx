@@ -23,6 +23,10 @@ function ProductPage(){
                 <p className={styles.gender}>{product.gender}</p>
                 <p className={styles.price}>¥{product.price.toLocaleString()}</p>
                 <button className="button" onClick={() => addToCart(product)}>Add to Cart</button>
+                <p className={styles.desc}>{product.desc}</p>
+                <ul>
+                    {product.details.map((d)=> <li>{d}</li>)}
+                </ul>
             </div>
         </div>
     )
