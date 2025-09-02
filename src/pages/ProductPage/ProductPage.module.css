@@ -10,7 +10,7 @@
     border-radius: 12px;
 }
 
-img{
+.product-img{
     width: 100%;
     border-radius: 12px;
 }
@@ -48,12 +48,12 @@ img{
     line-height: 1.3em;
 }
 
-ul{
+.details-list{
     margin-left: 1em;
     margin-top: 2em;
 }
 
-li{
+.details-item{
     margin-top: 1em;
 }
 

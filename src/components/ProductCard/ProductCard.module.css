@@ -5,6 +5,7 @@
 
 .product-card img{
     width: 100%;
+    border-radius: 12px;
 }
 
 .product-card h3{

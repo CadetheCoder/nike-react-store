@@ -16,6 +16,7 @@
     margin: auto;
     margin-top: 0px;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .cart-item-img{
@@ -25,10 +26,6 @@
 .summary-container{
     width: 400px;
     margin: auto;
-}
-
-.summary-text-wrapper{
-    margin-left: 1em;
 }
 
 .summary-text-wrapper h1{
@@ -100,6 +97,17 @@
 .cart-title{
     margin-bottom: 0.2em;
     font-weight: 500;
+}
+
+.trash-icon{
+    width: 25px;
+}
+
+.delete-btn{
+    margin-left: 1em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 @media (max-width: 995px) {

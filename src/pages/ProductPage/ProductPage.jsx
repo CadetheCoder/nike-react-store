@@ -16,7 +16,7 @@ function ProductPage(){
     return(
         <div className={styles.container}>
             <div className={styles['img-container']}>
-                <img src={product.image} alt={product.name} />
+                <img src={product.image} alt={product.name} className={styles['product-img']}/>
             </div>
             <div className={styles['text-container']}>
                 <h1>{product.name}</h1>
@@ -24,8 +24,8 @@ function ProductPage(){
                 <p className={styles.price}>¥{product.price.toLocaleString()}</p>
                 <button className="button" onClick={() => addToCart(product)}>Add to Cart</button>
                 <p className={styles.desc}>{product.desc}</p>
-                <ul>
-                    {product.details.map((d)=> <li>{d}</li>)}
+                <ul className={styles['details-list']}>
+                    {product.details.map((d)=> <li className={styles['details-item']}>{d}</li>)}
                 </ul>
             </div>
         </div>
