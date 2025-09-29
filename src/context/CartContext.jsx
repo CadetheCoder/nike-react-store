@@ -17,6 +17,10 @@ export function CartProvider({ children }){
         return cartItems.length;
     }
 
+    function deleteFromCart(){
+        
+    }
+
     return (
         <CartContext.Provider value={{ cartItems, addToCart, cartTotal, deleteFromCart }}>
             {children}

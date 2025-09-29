@@ -1,14 +1,26 @@
 .wrapper{
     background-color: #ededed;
     padding: 10px;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
-.log-in-container{
-    margin-right: 1em;
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.text-container{
+    margin-right: 2em;
 }
 
 h3{
     margin: 1em;
+}
+
+@media(max-width: 768px){
+    .text-container{
+        margin-right: 1em;
+    }
 }
