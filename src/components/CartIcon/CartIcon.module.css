@@ -1,0 +1,25 @@
+.cart-btn{
+    width: 50px;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+    display: flex;
+}
+
+.cart-total.active{
+    display: block;
+}
+
+@media (max-width: 768px){
+    .link{
+        margin-left: auto;
+    }
+}
