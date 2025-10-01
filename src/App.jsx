@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./pages/Checkout/Checkout.jsx";
 import Cart from "./pages/Cart/Cart.jsx";
 import Layout from "./Layout";

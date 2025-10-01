@@ -1,6 +1,7 @@
 import { useCart } from "../../context/CartContext";
 import styles from './Cart.module.css';
 import { Link } from "react-router-dom";
+import trashIcon from "../../assets/images/trash-icon.avif";
 
 function Cart(){
     const { cartItems } = useCart();
@@ -30,7 +31,7 @@ function Cart(){
                                 <h3>{item.name}</h3>
                                 <p className={styles['cart-item-gender']}>{item.gender}</p>
                                 <p className={styles['cart-item-price']}>¥{item.price.toLocaleString()}</p>
-                                <button className={styles['delete-btn']}><img src="/trash-icon.avif" alt="trash icon" className={styles['trash-icon']}/></button>
+                                <button className={styles['delete-btn']}><img src={trashIcon} alt="trash icon" className={styles['trash-icon']}/></button>
                             </div>
                         </div>
                     ))

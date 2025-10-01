@@ -8,10 +8,6 @@ function Checkout(){
     return(
         <div className={styles.container}>
             <h1>Checkout</h1>
-            {cartItems.map((item) => (
-            <div key={item.id}>
-                <img src={item.image} alt={item.name}/>
-            </div>))}
             <form>
                 <h3 className={styles['form-title']}>Delivery Options</h3>
                 <input type='text' placeholder='Email*'/>

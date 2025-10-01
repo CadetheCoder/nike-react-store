@@ -1,11 +1,12 @@
-import styles from "./Hero.module.css"
+import styles from "./Hero.module.css";
 import { Link } from "react-router-dom";
+import heroImg from "../../assets/images/hero-img.webp";
 
 function Hero(){
     return(
         <div>
             <div className={styles['img-wrapper']}>
-            <img src="/hero-img.webp" alt="" className={styles['hero-img']}/>
+            <img src={heroImg} alt="" className={styles['hero-img']}/>
             </div>
             <div className={styles['text-container']}>
                 <h3>Summer Kicks</h3>
