@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Checkout from "./pages/Checkout/Checkout";
-import Cart from "./pages/Cart/cart";
+import Checkout from "./pages/Checkout/Checkout.jsx";
+import Cart from "./pages/Cart/Cart.jsx";
 import Layout from "./Layout";
-import Shoes from "./pages/Shoes/shoes";
-import Socks from "./pages/Socks/Socks";
-import Slides from "./pages/Slides/Slides"
-import ProductPage from "./pages/ProductPage/productPage";
-import Home from "./pages/Home/Home";
-import { CartProvider } from "./context/CartContext";
+import Shoes from "./pages/Shoes/Shoes.jsx";
+import Socks from "./pages/Socks/Socks.jsx";
+import Slides from "./pages/Slides/Slides.jsx"
+import ProductPage from "./pages/ProductPage/productPage.jsx";
+import Home from "./pages/Home/Home.jsx";
+import { CartProvider } from "./context/CartContext.jsx";
 
 function App() {
 

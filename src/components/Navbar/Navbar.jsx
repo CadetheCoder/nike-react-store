@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styles from "./Navbar.module.css"
-import Shoes from "../../pages/Shoes/shoes"
+import Shoes from "../../pages/Shoes/Shoes"
 import Socks from "../../pages/Socks/Socks"
 import Slides from "../../pages/Slides/Slides";
 import Home from "../../pages/Home/Home"
