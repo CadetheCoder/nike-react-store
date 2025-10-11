@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Layout.jsx';
-import Home from './pages/Home/Home.jsx';
+import Home from './pages/HomeTemp/Home.jsx';
 import Shoes from './pages/Shoes/Shoes.jsx';
 import Socks from './pages/Socks/Socks.jsx';
 import Slides from './pages/Slides/Slides.jsx';
