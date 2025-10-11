@@ -1,4 +1,4 @@
-import styles from './CheckoutStyles.module.css';
+import styles from './Checkout.module.css';
 import { useCart } from "../../context/CartContext";
 
 function Checkout(){
