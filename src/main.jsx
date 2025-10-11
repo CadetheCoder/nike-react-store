@@ -12,7 +12,6 @@ import Checkout from './pages/Checkout/Checkout.jsx';
 import Cart from './pages/Cart/Cart.jsx';
 import ProductPage from './pages/ProductPage/ProductPage.jsx';
 
-
 const router = createBrowserRouter([
   {
     element: <App/>,
