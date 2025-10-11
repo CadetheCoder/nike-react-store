@@ -4,13 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Layout.jsx';
-import Home from './pages/HomeTemp/Home.jsx';
-import Shoes from './pages/Shoes/Shoes.jsx';
-import Socks from './pages/Socks/Socks.jsx';
-import Slides from './pages/Slides/Slides.jsx';
-import Checkout from './pages/Checkout/Checkout.jsx';
-import Cart from './pages/Cart/Cart.jsx';
-import ProductPage from './pages/ProductPage/ProductPage.jsx';
+import Home from './pages/Home/HomePage.jsx';
+import Shoes from './pages/Shoes/ShoesPage.jsx';
+import Socks from './pages/Socks/SocksPage.jsx';
+import Slides from './pages/Slides/SlidesPage.jsx';
+import Checkout from './pages/Checkout/CheckoutPage.jsx';
+import Cart from './pages/Cart/CartPage.jsx';
+import ProductPage from './pages/Product/ProductPage.jsx';
 
 const router = createBrowserRouter([
   {
